@@ -85,7 +85,7 @@ write.table(res_final, "./tidy_data_part_5.txt", row.name=FALSE)
 rm(sbj_train, x_train, y_train, sbj_test, x_test, y_test, df1, df2)
 rm(features, activity_labels, pattern, col_index)
 rm(f, url, df)
-#rm(dt)
+rm(dt)
 
 setwd("./..")
 
